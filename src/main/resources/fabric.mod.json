@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "bountytracker",
+  "version": "${version}",
+  "name": "Bounty Tracker",
+  "description": "Server-side player tracker compass and bounty system. Ops only. No client mod required.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.bountytracker.BountyTrackerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
